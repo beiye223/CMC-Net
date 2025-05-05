@@ -17,9 +17,6 @@ from timm.models.vision_transformer import _cfg
 import math
 from thop import profile
 from thop import clever_format
-# from models.convnext.convnext_backbone import ConvNeXt
-# from models.RS3mamba.RS3mamba import Decoder as RS3_Decoder
-# from models.DECSNet.decoder import decoder as DECS_Decoder
 
 from My_blocks.test_block import BiFusion_block_2d as test_fusion_block
 from My_blocks.my_BiFusion import BiFusion_block_2d as my_biFusion
